@@ -1,0 +1,9 @@
+.conteiner {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	width: 100%;
+	gap: 2rem;
+}

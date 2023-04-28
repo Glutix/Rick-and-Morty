@@ -1,0 +1,64 @@
+.card {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	height: 25rem;
+	width: 18rem;
+	border-radius: 4rem;
+	border: 1px solid black;
+	box-shadow: 1rem 1rem 1rem black;
+	background-color: rgba(250, 20, 140, 0.23);
+}
+
+.detalles {
+	font-size: 1rem;
+	margin: 0.5rem;
+	color: #f4f4f4;
+}
+
+.cardName {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: rgb(0, 255, 135);
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	transition: 2s;
+}
+
+.cardName:hover {
+	color: yellow;
+}
+
+.img {
+	margin-top: 1rem;
+	border-radius: 50%;
+	width: 80%;
+	height: 40%;
+}
+
+.button {
+	margin-top: 0.4rem;
+	border-radius: 50%;
+	background-color: rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
+	width: 2rem;
+	height: 2rem;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.like {
+	background: none;
+	border: none;
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+.btnConteiner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 0.5rem;
+	gap: 10rem;
+}

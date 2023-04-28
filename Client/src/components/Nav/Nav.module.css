@@ -1,0 +1,67 @@
+.nav {
+    background-color: #dd12815a;
+    height: 5rem;
+    min-width: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    box-shadow: 0 0 1.5rem black;
+    transition: 2s;
+}
+
+.nav:hover {
+    background-color: rgba(220, 20, 130, 0.557);
+}
+
+.navlink {
+    display: inline-block;
+    margin: 1.5rem;
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 1.2rem;
+
+}
+
+.btnFavorite {
+    text-decoration: none;
+    margin-top: 1px;
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-shadow:
+        0 0 5px red,
+        0 0 6px red,
+        0 0 7px red,
+        0 0 8px red;
+}
+
+
+.link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: italic;
+    color: rgba(0, 255, 135);
+    letter-spacing: 3px;
+    text-shadow:
+        0 0 10px rgba(0, 255, 135),
+        0 0 15px rgba(0, 255, 135),
+        0 0 20px rgba(0, 255, 135),
+        0 0 25px rgba(0, 255, 135);
+}
+
+
+.button {
+    background-color: #e9188b69;
+    color: #f4f4f4;
+    border-radius: 5rem;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.button:hover {
+    background-color: rgba(215, 25, 25, 0.7);
+}

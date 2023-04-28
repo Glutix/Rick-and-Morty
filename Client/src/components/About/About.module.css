@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    gap: 1em;
+}
+
+.containerCard {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 1px black solid;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    min-width: 40%;
+
+    transition: 2s;
+}
+
+.containerCard:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.image {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    width: 15rem;
+    height: 14rem;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 2rem #00ffbb;
+    transition: 2s;
+}
+
+.image:hover {
+    box-shadow: 0rem 0rem 6rem #00ffbb;
+}
+
+.parrafo {
+    color: #00ffbb;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: 2.7rem;
+    height: 100%;
+}
+
+
+.title {
+    margin: 2rem auto 1rem auto;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    color: #00ffbb;
+    font-weight: 500;
+}
+
+
+
+.icon {
+    display: flex;
+    width: 2.5rem;
+    height: 2.3rem;
+    margin-bottom: 10px;
+    margin-left: 1rem;
+}
+
+
+.link {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #00ffbb;
+    border-radius: 2rem;
+    transition: 1.5s;
+}
+
+.link:hover { 
+    color: #ff002b;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin-top: .6rem;
+}
